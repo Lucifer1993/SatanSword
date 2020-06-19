@@ -39,7 +39,7 @@ class Envcheck:
         success = True
         cprint('[*]执行命令模块检查..', 'blue')
         commlist = [
-            'nmap', 'whatweb', 'masscan', 'java', 'chromedriver',
+            'nmap', 'whatweb', 'masscan', 'java', 'chromedriver', 'dig',
         ]
         for _comm in commlist:
             try:

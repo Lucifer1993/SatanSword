@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ysoserial">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Heaven_Hell/extfile/ysoserial.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
