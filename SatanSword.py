@@ -32,7 +32,6 @@ from Endless_Sword.cmsexploit import webpocfactory
 from Endless_Sword.hostexploit import hostpocfactory
 from Soulcontrol.Scheduler import webschedule
 from Soulcontrol.Scheduler import hostschedule
-from Soulcontrol.daemon.daemon import Daemon
 from Endless_Sword.sytax_highlight import runhighlighting
 
 class Mainclass:
@@ -54,7 +53,7 @@ class SatanCmd(Cmd):
 	prompt = r'SatanSword{0}=>>> '.format(emoji.emojize(':high_voltage:' * 1))
 	"""
 	intro = r'''
-			  ____        _              ____                       _ 
+			  ____        _              ____                       _
 			 / ___|  __ _| |_ __ _ _ __ / ___|_      _____  _ __ __| |
 			 \___ \ / _` | __/ _` | '_ \\___ \ \ /\ / / _ \| '__/ _` |
 			  ___) | (_| | || (_| | | | |___) \ V  V / (_) | | | (_| |
@@ -498,17 +497,17 @@ class SatanCmd(Cmd):
 
 	def do_banner(self, args):
 		args = '''
-                             /   ))     |\         )               ).           
-               c--. (\  ( `.    / )  (\   ( `.     ).     ( (           
-               | |   ))  ) )   ( (   `.`.  ) )    ( (      ) )          
-               | |  ( ( / _..----.._  ) | ( ( _..----.._  ( (           
- ,-.           | |---) V.'-------.. `-. )-/.-' ..------ `--) \._        
- | /===========| |  (   |      ) ( ``-.`\/'.-''           (   ) ``-._   
+                             /   ))     |\         )               ).
+               c--. (\  ( `.    / )  (\   ( `.     ).     ( (
+               | |   ))  ) )   ( (   `.`.  ) )    ( (      ) )
+               | |  ( ( / _..----.._  ) | ( ( _..----.._  ( (
+ ,-.           | |---) V.'-------.. `-. )-/.-' ..------ `--) \._
+ | /===========| |  (   |      ) ( ``-.`\/'.-''           (   ) ``-._
  | | / / / / / | |--------------------->  <-------------------------_>=-
- | \===========| |                 ..-'./\.`-..                _,,-'    
- `-'           | |-------._------''_.-'----`-._``------_.-----'         
-               | |         ``----''            ``----''                  
-               | |                                                       
+ | \===========| |                 ..-'./\.`-..                _,,-'
+ `-'           | |-------._------''_.-'----`-._``------_.-----'
+               | |         ``----''            ``----''
+               | |
                c--`       SatanSword
         '''
 		cprint(args, 'magenta', attrs=['bold'])
