@@ -9,9 +9,9 @@ class GlobalConf:
         ceye接口用来探测盲命令执行
         """
         self.ceye = {
-            "url": "http://dx3hbm.ceye.io",
-            "weblog": "http://api.ceye.io/v1/records?token=&type=http",
-            "dnslog": "http://api.ceye.io/v1/records?token=&type=dns",
+            "url": "",
+            "weblog": "http://api.ceye.io/v1/records?token=XXXXXXXXXXXXXXXXXXXXXX&type=http",
+            "dnslog": "http://api.ceye.io/v1/records?token=XXXXXXXXXXXXXXXXXXXXXX&type=dns",
         }
 
         """
