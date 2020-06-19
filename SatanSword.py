@@ -50,11 +50,6 @@ class Mainclass:
 			cprint('[-]检查api模块失败!!!', 'red')
 			exit(1)
 
-class xraydaemon(Daemon):
-	def run(self):
-		cmd = [os.path.join(GlobalConf().progpath['location'], 'Endless_Sword/xray/xray'), 'webscan', '--listen', '127.0.0.1:7777', '--html-output', 'report.html']
-		out, err = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
-
 class SatanCmd(Cmd):
 	prompt = r'SatanSword{0}=>>> '.format(emoji.emojize(':high_voltage:' * 1))
 	"""
