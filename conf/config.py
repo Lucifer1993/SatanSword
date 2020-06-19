@@ -10,8 +10,8 @@ class GlobalConf:
         """
         self.ceye = {
             "url": "http://dx3hbm.ceye.io",
-            "weblog": "http://api.ceye.io/v1/records?token=c04665a158430a100ed655f9c710e597&type=http",
-            "dnslog": "http://api.ceye.io/v1/records?token=c04665a158430a100ed655f9c710e597&type=dns",
+            "weblog": "http://api.ceye.io/v1/records?token=&type=http",
+            "dnslog": "http://api.ceye.io/v1/records?token=&type=dns",
         }
 
         """
@@ -25,8 +25,8 @@ class GlobalConf:
         检测是否存在重定向
         """
         self.redirect = {
-            "url": "http://www.luciferxx.cn",
-            "key": "ed6b123aac0a4636797fefa09097974e2133788974b1c9167b11f1affa3543c7",
+            "url": "",
+            "key": "",
         }
 
         """
@@ -42,6 +42,6 @@ class GlobalConf:
         self.mysqlconf = {
             "host": "127.0.0.1",
             "port": 3306,
-            "username": "root",
-            "password": "Han19930101",
+            "username": "",
+            "password": "",
         }
