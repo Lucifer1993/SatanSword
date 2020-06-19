@@ -29,34 +29,34 @@
 ###>>>环境设置
 - **安装python3+模块+系统命令+配置api文件**
 
- ![image](./img/checkenv.png)
+ ![image](https://github.com/Lucifer1993/SatanSword/raw/master/img/checkenv.png)
 **修改conf/config.py，在对应的参数中填入自己辅助接口的信息**
- ![image](./img/config.png)
+ ![image](https://github.com/Lucifer1993/SatanSword/raw/master/img/config.png)
 
 - **新建mysql数据库名“SatanSword”，导入Heaven_Hell/backuptables路径下面的所有SQL文件**
 
 - **保证下载的chromedriver和chromium版本一致**
- ![image](./img/chromedriver.png)
+ ![image](https://github.com/Lucifer1993/SatanSword/raw/master/img/chromedriver.png)
 
 ###>>>使用说明
 
 - **设置或取消线程数、cookies**
- ![image](./img/use1.png)
+ ![image](https://github.com/Lucifer1993/SatanSword/raw/master/img/use1.png)
 
 - **对多个目标执行多个POC**
- ![image](./img/use2.png)
+ ![image](https://github.com/Lucifer1993/SatanSword/raw/master/img/use2.png)
 
 - **所有成功和失败的利用都会写入数据库和日志文件**
-![image](./img/use3.png)
+![image](https://github.com/Lucifer1993/SatanSword/raw/master/img/use3.png)
 
 - **CMS指纹识别**
-![image](./img/use4.png)
+![image](https://github.com/Lucifer1993/SatanSword/raw/master/img/use4.png)
 
 - **web和ip信息识别，sniper用于单一IP或URL，批量请使用bomber，结果自动保存到数据库中**
-![image](./img/use5.png)
+![image](https://github.com/Lucifer1993/SatanSword/raw/master/img/use5.png)
 
 - **JS文件批量检索子域名**
-![image](./img/use6.png)
+![image](https://github.com/Lucifer1993/SatanSword/raw/master/img/use6.png)
 
 ###>>>感谢如下优秀开源项目
 
@@ -79,4 +79,4 @@
 ***2.请遵守《中华人民共和国网络安全法》，禁止将代码用于未授权测试及破坏行为。***
 
 ***3.如果本项目给你带来帮助的话可以打赏一杯奶茶或加入知识星球交流***
-![image](./img/contact.png)
+![image](https://github.com/Lucifer1993/SatanSword/raw/master/img/contact.png)
