@@ -41,8 +41,6 @@ class Envcheck:
         commlist = [
             'nmap', 'whatweb', 'masscan', 'java', 'dig', 'chromedriver'
         ]
-        if not noxss:
-            commlist.append('chromedriver')
         for _comm in commlist:
             try:
                 res = which(_comm)
