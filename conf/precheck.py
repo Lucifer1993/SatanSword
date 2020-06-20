@@ -35,12 +35,14 @@ class Envcheck:
     系统命令库检查函数
     return: bool
     """
-    def commandcheck(self):
+    def commandcheck(self, noxss=False):
         success = True
         cprint('[*]执行命令模块检查..', 'blue')
         commlist = [
-            'nmap', 'whatweb', 'masscan', 'java', 'chromedriver', 'dig',
+            'nmap', 'whatweb', 'masscan', 'java', 'dig',
         ]
+        if not noxss:
+            commlist.append('chromedriver')
         for _comm in commlist:
             try:
                 res = which(_comm)
