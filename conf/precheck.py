@@ -39,7 +39,7 @@ class Envcheck:
         success = True
         cprint('[*]执行命令模块检查..', 'blue')
         commlist = [
-            'nmap', 'whatweb', 'masscan', 'java', 'dig',
+            'nmap', 'whatweb', 'masscan', 'java', 'dig', 'chromedriver'
         ]
         if not noxss:
             commlist.append('chromedriver')
