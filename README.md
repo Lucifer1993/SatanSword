@@ -74,7 +74,7 @@
 
 ### >>>特别说明
 
-***1.本项目中的所有PoC代码全部转移到https://github.com/Lucifer1993/PoCHub下载，提供json和sql两种文件格式。***
+***1.本项目中的所有PoC代码全部转移到 https://github.com/Lucifer1993/PoCHub ，提供json和sql两种文件格式。***
 
 ***2.请遵守《中华人民共和国网络安全法》，禁止将代码用于未授权测试及破坏行为。***
 
