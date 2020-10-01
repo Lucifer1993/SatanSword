@@ -1,4 +1,4 @@
-# SatanSword
+# SatanSword or
 ***红队综合渗透框架***
 
 [![python](https://img.shields.io/badge/python-3.x-blue.svg?logo=python&labelColor=yellow)](https://www.python.org/downloads/)
