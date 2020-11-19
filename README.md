@@ -77,6 +77,3 @@
 ***1.本项目中的所有PoC代码全部转移到 https://github.com/Lucifer1993/PoCHub ，提供json和sql两种文件格式。***
 
 ***2.请遵守《中华人民共和国网络安全法》，禁止将代码用于未授权测试及破坏行为。***
-
-***3.如果本项目给你带来帮助的话可以打赏一杯奶茶或加入知识星球交流***
-![image](https://github.com/Lucifer1993/SatanSword/raw/master/img/contact.png)
