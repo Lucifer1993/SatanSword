@@ -9,6 +9,10 @@
 ![release](https://img.shields.io/badge/Release-v0.1-orange.svg)
 
 
+### >>>Docker使用(同时集成了AngelSword)
+- 1.拉取镜像 docker pull fuckuanywhere/satansword
+- 2.执行命令 docker run -ti fuckuanywhere/satansword /bin/bash -c "service mysql start && python3 /root/SatanSword/SatanSword.py"
+
 ### >>>功能描述
 - web指纹识别，集成whatweb及wappalyzer所有指纹及自己收集的web服务器指纹1839条+cms指纹1936条。
 
