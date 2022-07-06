@@ -18,7 +18,7 @@ gnureadline==8.0.0
 greenlet==0.4.16
 idna==2.8
 Logbook==1.5.2
-lxml==4.5.1
+lxml==4.9.1
 maxminddb==1.5.4
 paramiko==2.6.0
 pexpect==4.8.0
