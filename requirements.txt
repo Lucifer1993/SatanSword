@@ -20,7 +20,7 @@ idna==2.8
 Logbook==1.5.2
 lxml==4.5.1
 maxminddb==1.5.4
-paramiko==2.6.0
+paramiko==2.10.1
 pexpect==4.8.0
 prettytable==0.7.2
 ptyprocess==0.6.0
